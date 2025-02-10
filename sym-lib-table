@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "IRLB8721PBF")(type "KiCad")(uri "${KIPRJMOD}/external/IRLB8721PBF/IRLB8721PBF.kicad_sym")(options "")(descr ""))
+)
