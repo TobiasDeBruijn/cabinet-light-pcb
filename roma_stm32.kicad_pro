@@ -451,7 +451,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "cabinet_light.kicad_pro",
+    "filename": "roma_stm32.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -608,16 +608,20 @@
   },
   "sheets": [
     [
-      "8f50e6d6-3696-4153-9907-ddc1ca4e5be3",
+      "3a226f03-4a9d-4dc5-aa83-7f795adabb6a",
       "Root"
     ],
     [
-      "8b845be6-4642-47dd-852b-59417f6d10f3",
-      "12V to 3V3"
+      "c616261d-89e7-4bcb-bbfa-b0506668b97b",
+      "12v_to_5v"
     ],
     [
-      "8515131e-704f-44f3-9e5f-b6c790cb260b",
-      "12v_to_5v"
+      "27bcb495-97f4-47f8-b642-6cc0c9b6c14f",
+      "12v_to_3v3"
+    ],
+    [
+      "ee007d01-3308-42d1-a88e-28a505ea924f",
+      "can"
     ]
   ],
   "text_variables": {}

@@ -893,46 +893,46 @@
 		)
 	)
 	(junction
-		(at 119.38 61.595)
+		(at 113.03 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5b5766cf-f52d-48e3-b933-eb99b47e1c0a")
 	)
 	(junction
-		(at 154.305 89.535)
+		(at 148.59 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7cebc61a-5be1-42c4-a9d7-86ebefa2fedb")
 	)
 	(junction
-		(at 135.89 89.535)
+		(at 129.54 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8911df9d-30f4-4f3b-bd48-9387670b5368")
 	)
 	(junction
-		(at 130.81 61.595)
+		(at 124.46 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dd841903-5e5f-4e70-b9d4-68608f01b349")
 	)
 	(junction
-		(at 135.89 61.595)
+		(at 129.54 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e1096116-47f6-4b50-8f21-13d4f5c982c5")
 	)
 	(no_connect
-		(at 125.73 79.375)
+		(at 119.38 74.93)
 		(uuid "2bdb6e04-859a-40bc-b3c8-0310499ae253")
 	)
 	(no_connect
-		(at 146.05 84.455)
+		(at 139.7 80.01)
 		(uuid "b2d54007-9292-4314-9be8-b19e1d24ca3b")
 	)
 	(wire
 		(pts
-			(xy 135.89 89.535) (xy 146.685 89.535)
+			(xy 129.54 85.09) (xy 140.97 85.09)
 		)
 		(stroke
 			(width 0)
@@ -942,7 +942,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.305 79.375) (xy 146.05 79.375)
+			(xy 148.59 74.93) (xy 139.7 74.93)
 		)
 		(stroke
 			(width 0)
@@ -952,7 +952,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 61.595) (xy 146.05 61.595)
+			(xy 129.54 57.15) (xy 139.7 57.15)
 		)
 		(stroke
 			(width 0)
@@ -962,7 +962,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 61.595) (xy 130.81 61.595)
+			(xy 113.03 57.15) (xy 124.46 57.15)
 		)
 		(stroke
 			(width 0)
@@ -972,7 +972,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 61.595) (xy 146.05 74.295)
+			(xy 139.7 57.15) (xy 139.7 69.85)
 		)
 		(stroke
 			(width 0)
@@ -982,7 +982,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 61.595) (xy 119.38 61.595)
+			(xy 106.68 57.15) (xy 113.03 57.15)
 		)
 		(stroke
 			(width 0)
@@ -992,7 +992,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.305 89.535) (xy 161.29 89.535)
+			(xy 148.59 85.09) (xy 154.94 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1002,7 +1002,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 61.595) (xy 135.89 69.215)
+			(xy 129.54 57.15) (xy 129.54 64.77)
 		)
 		(stroke
 			(width 0)
@@ -1012,7 +1012,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.305 89.535) (xy 154.305 79.375)
+			(xy 148.59 85.09) (xy 148.59 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1022,7 +1022,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 61.595) (xy 135.89 61.595)
+			(xy 124.46 57.15) (xy 129.54 57.15)
 		)
 		(stroke
 			(width 0)
@@ -1032,8 +1032,7 @@
 	)
 	(hierarchical_label "+5V"
 		(shape output)
-		(at 161.29 89.535 0)
-		(fields_autoplaced yes)
+		(at 154.94 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1044,8 +1043,7 @@
 	)
 	(hierarchical_label "+12V"
 		(shape input)
-		(at 113.03 61.595 180)
-		(fields_autoplaced yes)
+		(at 106.68 57.15 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1056,7 +1054,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 150.495 89.535 90)
+		(at 144.78 85.09 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1065,7 +1063,7 @@
 		(fields_autoplaced yes)
 		(uuid "00fcdce4-b085-4e75-95c4-e74e07b097bd")
 		(property "Reference" "L2"
-			(at 150.495 83.82 90)
+			(at 144.78 79.375 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1073,7 +1071,7 @@
 			)
 		)
 		(property "Value" "330u"
-			(at 150.495 86.36 90)
+			(at 144.78 81.915 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1081,7 +1079,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
-			(at 150.495 89.535 0)
+			(at 144.78 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1090,7 +1088,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 150.495 89.535 0)
+			(at 144.78 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1099,7 +1097,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 150.495 89.535 0)
+			(at 144.78 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1115,6 +1113,12 @@
 		)
 		(instances
 			(project "cabinet_light"
+				(path "/3a226f03-4a9d-4dc5-aa83-7f795adabb6a/c616261d-89e7-4bcb-bbfa-b0506668b97b"
+					(reference "L2")
+					(unit 1)
+				)
+			)
+			(project "cabinet_light"
 				(path "/8f50e6d6-3696-4153-9907-ddc1ca4e5be3/8515131e-704f-44f3-9e5f-b6c790cb260b"
 					(reference "L2")
 					(unit 1)
@@ -1124,7 +1128,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 119.38 65.405 0)
+		(at 113.03 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1132,7 +1136,7 @@
 		(dnp no)
 		(uuid "21e4d38e-a7b1-40fa-9522-49af85938d54")
 		(property "Reference" "C10"
-			(at 114.935 63.5 0)
+			(at 108.585 59.055 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1141,7 +1145,7 @@
 			)
 		)
 		(property "Value" "100uF"
-			(at 123.19 67.945 90)
+			(at 116.84 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1149,8 +1153,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 120.3452 69.215 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 113.9952 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1159,7 +1163,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 119.38 65.405 0)
+			(at 113.03 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1168,7 +1172,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 119.38 65.405 0)
+			(at 113.03 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1184,6 +1188,12 @@
 		)
 		(instances
 			(project "cabinet_light"
+				(path "/3a226f03-4a9d-4dc5-aa83-7f795adabb6a/c616261d-89e7-4bcb-bbfa-b0506668b97b"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+			(project "cabinet_light"
 				(path "/8f50e6d6-3696-4153-9907-ddc1ca4e5be3/8515131e-704f-44f3-9e5f-b6c790cb260b"
 					(reference "C10")
 					(unit 1)
@@ -1193,7 +1203,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 135.89 97.155 0)
+		(at 129.54 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1202,7 +1212,7 @@
 		(fields_autoplaced yes)
 		(uuid "2eca8902-4681-4fac-b02c-c28638a80b81")
 		(property "Reference" "#PWR037"
-			(at 135.89 103.505 0)
+			(at 129.54 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1211,7 +1221,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 135.89 101.6 0)
+			(at 129.54 97.155 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1219,7 +1229,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 135.89 97.155 0)
+			(at 129.54 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1228,7 +1238,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 97.155 0)
+			(at 129.54 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1237,7 +1247,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 135.89 97.155 0)
+			(at 129.54 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1250,6 +1260,12 @@
 		)
 		(instances
 			(project "cabinet_light"
+				(path "/3a226f03-4a9d-4dc5-aa83-7f795adabb6a/c616261d-89e7-4bcb-bbfa-b0506668b97b"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+			(project "cabinet_light"
 				(path "/8f50e6d6-3696-4153-9907-ddc1ca4e5be3/8515131e-704f-44f3-9e5f-b6c790cb260b"
 					(reference "#PWR037")
 					(unit 1)
@@ -1259,7 +1275,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 119.38 69.215 0)
+		(at 113.03 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1268,7 +1284,7 @@
 		(fields_autoplaced yes)
 		(uuid "52b19d50-3c5e-45c7-9c24-6f83def46a80")
 		(property "Reference" "#PWR035"
-			(at 119.38 75.565 0)
+			(at 113.03 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1277,7 +1293,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 119.38 73.66 0)
+			(at 113.03 69.215 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1285,7 +1301,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 119.38 69.215 0)
+			(at 113.03 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1294,7 +1310,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 69.215 0)
+			(at 113.03 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1303,7 +1319,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 119.38 69.215 0)
+			(at 113.03 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1316,6 +1332,12 @@
 		)
 		(instances
 			(project "cabinet_light"
+				(path "/3a226f03-4a9d-4dc5-aa83-7f795adabb6a/c616261d-89e7-4bcb-bbfa-b0506668b97b"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+			(project "cabinet_light"
 				(path "/8f50e6d6-3696-4153-9907-ddc1ca4e5be3/8515131e-704f-44f3-9e5f-b6c790cb260b"
 					(reference "#PWR035")
 					(unit 1)
@@ -1325,7 +1347,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 154.305 97.155 0)
+		(at 148.59 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1334,7 +1356,7 @@
 		(fields_autoplaced yes)
 		(uuid "5e00f64b-0c2b-485e-802b-0df059790a90")
 		(property "Reference" "#PWR038"
-			(at 154.305 103.505 0)
+			(at 148.59 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1343,7 +1365,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 154.305 101.6 0)
+			(at 148.59 97.155 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1351,7 +1373,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 154.305 97.155 0)
+			(at 148.59 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1360,7 +1382,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.305 97.155 0)
+			(at 148.59 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1369,7 +1391,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 154.305 97.155 0)
+			(at 148.59 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1382,6 +1404,12 @@
 		)
 		(instances
 			(project "cabinet_light"
+				(path "/3a226f03-4a9d-4dc5-aa83-7f795adabb6a/c616261d-89e7-4bcb-bbfa-b0506668b97b"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+			(project "cabinet_light"
 				(path "/8f50e6d6-3696-4153-9907-ddc1ca4e5be3/8515131e-704f-44f3-9e5f-b6c790cb260b"
 					(reference "#PWR038")
 					(unit 1)
@@ -1391,7 +1419,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 154.305 93.345 0)
+		(at 148.59 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1400,7 +1428,7 @@
 		(fields_autoplaced yes)
 		(uuid "917bf796-a200-43c2-a05f-45ec19bbad6c")
 		(property "Reference" "C11"
-			(at 157.48 92.075 0)
+			(at 151.765 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1409,7 +1437,7 @@
 			)
 		)
 		(property "Value" "330uF"
-			(at 157.48 94.615 0)
+			(at 151.765 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1418,7 +1446,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 155.2702 97.155 0)
+			(at 149.5552 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1427,7 +1455,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 154.305 93.345 0)
+			(at 148.59 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1436,7 +1464,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 154.305 93.345 0)
+			(at 148.59 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1452,6 +1480,12 @@
 		)
 		(instances
 			(project "cabinet_light"
+				(path "/3a226f03-4a9d-4dc5-aa83-7f795adabb6a/c616261d-89e7-4bcb-bbfa-b0506668b97b"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+			(project "cabinet_light"
 				(path "/8f50e6d6-3696-4153-9907-ddc1ca4e5be3/8515131e-704f-44f3-9e5f-b6c790cb260b"
 					(reference "C11")
 					(unit 1)
@@ -1461,7 +1495,7 @@
 	)
 	(symbol
 		(lib_id "Regulator_Switching:ADP1108AR-5")
-		(at 135.89 79.375 0)
+		(at 129.54 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1470,7 +1504,7 @@
 		(fields_autoplaced yes)
 		(uuid "c88fe6df-d5c4-45cb-acab-9f43338a8972")
 		(property "Reference" "U4"
-			(at 119.38 75.7271 0)
+			(at 113.03 71.2821 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1478,7 +1512,7 @@
 			)
 		)
 		(property "Value" "ADP1108AR-5"
-			(at 119.38 78.2671 0)
+			(at 113.03 73.8221 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1486,7 +1520,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 137.16 88.265 0)
+			(at 130.81 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1496,7 +1530,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADP1108.pdf"
-			(at 130.81 64.135 0)
+			(at 124.46 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1505,7 +1539,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 135.89 79.375 0)
+			(at 129.54 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1539,6 +1573,12 @@
 		)
 		(instances
 			(project "cabinet_light"
+				(path "/3a226f03-4a9d-4dc5-aa83-7f795adabb6a/c616261d-89e7-4bcb-bbfa-b0506668b97b"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+			(project "cabinet_light"
 				(path "/8f50e6d6-3696-4153-9907-ddc1ca4e5be3/8515131e-704f-44f3-9e5f-b6c790cb260b"
 					(reference "U4")
 					(unit 1)
@@ -1548,7 +1588,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky")
-		(at 135.89 93.345 270)
+		(at 129.54 88.9 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1557,7 +1597,7 @@
 		(fields_autoplaced yes)
 		(uuid "e978e4ce-b3d1-4e2f-8bf6-58842b6a0805")
 		(property "Reference" "D3"
-			(at 138.43 91.7575 90)
+			(at 132.08 87.3125 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1566,7 +1606,7 @@
 			)
 		)
 		(property "Value" "D_Schottky"
-			(at 138.43 94.2975 90)
+			(at 132.08 89.8525 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1575,7 +1615,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_0402_1005Metric"
-			(at 135.89 93.345 0)
+			(at 129.54 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1584,7 +1624,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 135.89 93.345 0)
+			(at 129.54 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1593,7 +1633,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 135.89 93.345 0)
+			(at 129.54 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1609,6 +1649,12 @@
 		)
 		(instances
 			(project "cabinet_light"
+				(path "/3a226f03-4a9d-4dc5-aa83-7f795adabb6a/c616261d-89e7-4bcb-bbfa-b0506668b97b"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+			(project "cabinet_light"
 				(path "/8f50e6d6-3696-4153-9907-ddc1ca4e5be3/8515131e-704f-44f3-9e5f-b6c790cb260b"
 					(reference "D3")
 					(unit 1)
@@ -1618,7 +1664,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 130.81 89.535 0)
+		(at 124.46 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1627,7 +1673,7 @@
 		(fields_autoplaced yes)
 		(uuid "fa21e5e5-d8f4-48c0-b0c1-4e33f7ac0ca8")
 		(property "Reference" "#PWR036"
-			(at 130.81 95.885 0)
+			(at 124.46 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1636,7 +1682,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 130.81 93.98 0)
+			(at 124.46 89.535 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1644,7 +1690,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 130.81 89.535 0)
+			(at 124.46 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1653,7 +1699,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 89.535 0)
+			(at 124.46 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1662,7 +1708,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 130.81 89.535 0)
+			(at 124.46 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1675,6 +1721,12 @@
 		)
 		(instances
 			(project "cabinet_light"
+				(path "/3a226f03-4a9d-4dc5-aa83-7f795adabb6a/c616261d-89e7-4bcb-bbfa-b0506668b97b"
+					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+			(project "cabinet_light"
 				(path "/8f50e6d6-3696-4153-9907-ddc1ca4e5be3/8515131e-704f-44f3-9e5f-b6c790cb260b"
 					(reference "#PWR036")
 					(unit 1)
@@ -1684,7 +1736,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 130.81 65.405 0)
+		(at 124.46 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1692,7 +1744,7 @@
 		(dnp no)
 		(uuid "fffeba1a-1b1c-44c7-b1d8-3f68207eaf94")
 		(property "Reference" "R4"
-			(at 127 63.5 0)
+			(at 120.65 59.055 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1701,7 +1753,7 @@
 			)
 		)
 		(property "Value" "220R"
-			(at 133.35 67.945 90)
+			(at 127 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1710,7 +1762,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 129.032 65.405 90)
+			(at 122.682 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1719,7 +1771,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 130.81 65.405 0)
+			(at 124.46 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1728,7 +1780,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 130.81 65.405 0)
+			(at 124.46 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1743,6 +1795,12 @@
 			(uuid "648914d5-b99e-4222-b8c6-a5b2147cc5f0")
 		)
 		(instances
+			(project "cabinet_light"
+				(path "/3a226f03-4a9d-4dc5-aa83-7f795adabb6a/c616261d-89e7-4bcb-bbfa-b0506668b97b"
+					(reference "R4")
+					(unit 1)
+				)
+			)
 			(project "cabinet_light"
 				(path "/8f50e6d6-3696-4153-9907-ddc1ca4e5be3/8515131e-704f-44f3-9e5f-b6c790cb260b"
 					(reference "R4")
