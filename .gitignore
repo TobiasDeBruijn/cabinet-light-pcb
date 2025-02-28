@@ -31,5 +31,5 @@ fp-info-cache
 *.csv
 
 # JLC
-jlcpcb/
-plots/
+jlcpcb/gerber
+jlcpcb/production_files
